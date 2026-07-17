@@ -1,0 +1,18 @@
+# Core (experiments/)
+torch>=2.0
+numpy>=1.23
+scikit-learn>=1.2
+matplotlib>=3.7
+
+# Additional, for reproducibility_audit/independent_repro and legacy_m4
+pandas>=1.5
+seaborn>=0.12
+
+# Optional, only for the legacy notebook runners in
+# reproducibility_audit/notebook_reruns/ (archived rerun evidence)
+# statsmodels
+# statsforecast
+# plotly
+# tqdm
+# pytorch_warmup
+# scipy

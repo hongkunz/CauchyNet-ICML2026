@@ -1,0 +1,8 @@
+CauchyNet    final val MSE median=8.91e-04  test MAE(unscaled)=4.2669  params=512
+SIREN        final val MSE median=3.27e-03  test MAE(unscaled)=11.2452  params=385
+NBeats       final val MSE median=1.32e-02  test MAE(unscaled)=18.3644  params=385
+LSTM         final val MSE median=2.07e-02  test MAE(unscaled)=23.9421  params=67201
+Transformer  final val MSE median=8.24e-03  test MAE(unscaled)=17.8643  params=132993
+RBF          final val MSE median=1.99e-02  test MAE(unscaled)=23.6007  params=385
+Informer     final val MSE median=7.36e-03  test MAE(unscaled)=17.6364  params=149377
+saved recover_m4_losses.png, recover_m4_boxplot.png

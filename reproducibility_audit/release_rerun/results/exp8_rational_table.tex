@@ -1,0 +1,19 @@
+\begin{table}[ht]\centering
+\caption{CauchyNet vs Rational Neural Networks (Boull\'e et al. 2020).
+$h=64$, 10 random seeds, 50 training points, MinMaxScaler.}
+\label{tab:rational}
+\begin{tabular}{llccc}
+\toprule
+Function & Model & \# Params & Test MSE & Test MAE \\
+\midrule
+Paper 1D target & CauchyNet & 256 & $0.028452 \pm 0.011031$ & $0.127918 \pm 0.033536$ \\
+ & RationalNN & 256 & $0.035166 \pm 0.000900$ & $0.151956 \pm 0.005454$ \\
+\midrule
+Near-singular & CauchyNet & 256 & $0.018191 \pm 0.020684$ & $0.071044 \pm 0.060331$ \\
+ & RationalNN & 256 & $0.035440 \pm 0.013559$ & $0.131548 \pm 0.031057$ \\
+\midrule
+Smooth oscillatory & CauchyNet & 256 & $0.051585 \pm 0.025164$ & $0.170936 \pm 0.071850$ \\
+ & RationalNN & 256 & $0.065133 \pm 0.002449$ & $0.207293 \pm 0.006132$ 
+\bottomrule
+\end{tabular}
+\end{table}

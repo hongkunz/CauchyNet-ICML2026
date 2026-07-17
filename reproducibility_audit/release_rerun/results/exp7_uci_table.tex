@@ -1,0 +1,21 @@
+\begin{table}[ht]\centering
+\caption{UCI/tabular regression benchmarks. 5-fold CV, $n=100$, $h=64$.}
+\label{tab:uci}
+\begin{tabular}{llcccc}
+\toprule
+Dataset & Model & \# Params & Test MSE & Test MAE \\
+\midrule
+Diabetes & CauchyNet & 1408 & $5206.4102 \pm 1145.4728$ & $55.6958 \pm 7.2360$ \\
+ & FNN & 1405 & $5886.8814 \pm 585.0946$ & $58.5050 \pm 3.2850$ \\
+ & Hybrid & 364 & $3640.6483 \pm 1086.2551$ & $45.4402 \pm 6.8922$ \\
+\midrule
+California & CauchyNet & 1152 & $0.8618 \pm 0.3922$ & $0.7059 \pm 0.1244$ \\
+ & FNN & 1151 & $0.5719 \pm 0.2080$ & $0.5781 \pm 0.0930$ \\
+ & Hybrid & 356 & $0.4515 \pm 0.1546$ & $0.4881 \pm 0.0739$ \\
+\midrule
+Wine & CauchyNet & 1536 & $1.6981 \pm 2.1075$ & $0.7091 \pm 0.2066$ \\
+ & FNN & 1535 & $0.7723 \pm 0.2095$ & $0.7176 \pm 0.0518$ \\
+ & Hybrid & 368 & $0.5968 \pm 0.0484$ & $0.6568 \pm 0.0413$ 
+\bottomrule
+\end{tabular}
+\end{table}

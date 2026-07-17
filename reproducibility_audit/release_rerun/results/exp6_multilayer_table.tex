@@ -1,0 +1,14 @@
+\begin{table}[ht]\centering
+\caption{Multi-layer CauchyNet variants on the 1D target function. 10 random seeds, MinMaxScaler.}
+\label{tab:multilayer}
+\begin{tabular}{lccc}
+\toprule
+Variant & \# Params & Test MSE & Test MAE \\
+\midrule
+CauchyNet-1L & 256 & $0.041238 \pm 0.001574$ & $0.150790 \pm 0.006885$ \\
+CauchyNet-2L & 4224 & $0.035289 \pm 0.019045$ & $0.123565 \pm 0.047696$ \\
+CauchyNet-Res & 306 & $0.040042 \pm 0.002575$ & $0.150303 \pm 0.007560$ \\
+CauchyNet-Skip & 2304 & $0.025079 \pm 0.017695$ & $0.103039 \pm 0.056677$ \\
+\bottomrule
+\end{tabular}
+\end{table}

@@ -1,0 +1,32 @@
+Training completed in 1.41 seconds.
+Number of Parameters: 384
+Test MSE: 0.0044
+Test MAE: 0.0330
+Training data shape: torch.Size([1613, 2]) torch.Size([1613])
+Validation data shape: torch.Size([1076, 2]) torch.Size([1076])
+Test data shape: torch.Size([311, 2]) torch.Size([311])
+Training data shape: torch.Size([0, 2]) torch.Size([0])
+Validation data shape: torch.Size([0, 2]) torch.Size([0])
+Test data shape: torch.Size([3000, 2]) torch.Size([3000])
+Traceback (most recent call last):
+  File "<workdir>/legacy_rerun/run_2d_example.py", line 598, in <module>
+    scaler.fit(Y_train_val_np)
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/sklearn/preprocessing/_data.py", line 454, in fit
+    return self.partial_fit(X, y)
+           ~~~~~~~~~~~~~~~~^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/sklearn/base.py", line 1365, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/sklearn/preprocessing/_data.py", line 494, in partial_fit
+    X = validate_data(
+        self,
+    ...<3 lines>...
+        ensure_all_finite="allow-nan",
+    )
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/sklearn/utils/validation.py", line 2954, in validate_data
+    out = check_array(X, input_name="X", **check_params)
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/sklearn/utils/validation.py", line 1128, in check_array
+    raise ValueError(
+    ...<3 lines>...
+    )
+ValueError: Found array with 0 sample(s) (shape=(0, 1)) while a minimum of 1 is required by MinMaxScaler.

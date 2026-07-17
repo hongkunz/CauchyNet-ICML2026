@@ -1,0 +1,21 @@
+\begin{table}[ht]\centering
+\caption{Piecewise-affine/non-smooth functions. 5 seeds, $n=20$ training points, $h=64$.}
+\label{tab:piecewise}
+\begin{tabular}{llccc}
+\toprule
+Function & Model & \# Params & Test MSE & Test MAE \\
+\midrule
+Chirp & CauchyNet & 256 & $0.108417 \pm 0.011482$ & $0.268407 \pm 0.019406$ \\
+ & FNN & 256 & $0.119748 \pm 0.002290$ & $0.293456 \pm 0.005756$ \\
+\midrule
+Piecewise-smooth & CauchyNet & 256 & $0.006636 \pm 0.001929$ & $0.059122 \pm 0.010933$ \\
+ & FNN & 256 & $0.007780 \pm 0.001165$ & $0.067673 \pm 0.006850$ \\
+\midrule
+Gibbs (sq wave) & CauchyNet & 256 & $0.007735 \pm 0.000410$ & $0.056522 \pm 0.004111$ \\
+ & FNN & 256 & $0.009065 \pm 0.000950$ & $0.057372 \pm 0.003825$ \\
+\midrule
+Step-ramp & CauchyNet & 256 & $0.006629 \pm 0.001298$ & $0.059332 \pm 0.010262$ \\
+ & FNN & 256 & $0.004120 \pm 0.000593$ & $0.037664 \pm 0.004032$ 
+\bottomrule
+\end{tabular}
+\end{table}
