@@ -1,0 +1,47 @@
+{
+  "protocol": {
+    "seed": 10,
+    "domain": [
+      -0.8,
+      0.8
+    ],
+    "sample_count": 3000,
+    "missing_disk_radius": 0.3,
+    "train_count": 1602,
+    "validation_count": 1069,
+    "test_count": 329,
+    "width": 128,
+    "batch_size": 32,
+    "epochs": 1000,
+    "learning_rate": 0.01,
+    "weight_decay": 0.0,
+    "step_lr": {
+      "step_size": 500,
+      "gamma": 0.7
+    },
+    "imaginary_penalty": 1.0,
+    "target_scaler_fit": "train+validation (valid legacy missing-disk cell)",
+    "checkpoint": "lowest validation loss",
+    "best_epoch": 813,
+    "best_validation_loss_scaled": 1.416381923743389e-07,
+    "display_only_vertical_offset": 1.0
+  },
+  "metrics": {
+    "test_mse": 3.613591559314955e-07,
+    "test_mae": 0.0005064466968178749,
+    "test_max_abs_error": 0.001180410385131836,
+    "grid_error_min": -0.009891211986541748,
+    "grid_error_max": 0.008783936500549316,
+    "disk_grid_max_abs_error": 0.0011832714080810547
+  },
+  "training_seconds": 32.73044883296825,
+  "final_train_loss_scaled": 2.8651771182158925e-06,
+  "final_validation_loss_scaled": 4.823576936699506e-06,
+  "target_min": 0.9707093238830566,
+  "provenance": [
+    "ICML2026/source/supp.tex, Figure 8 protocol",
+    "code/2d_case/2d_example.ipynb valid [-0.8,0.8]^2 missing-disk cells",
+    "reproducibility_audit/notebook_reruns/run_2d_example.py (legacy audit and failure trace)"
+  ],
+  "excluded_legacy_cell": "[-0.2,0.2]^2 with radius 0.3: zero train/validation samples"
+}

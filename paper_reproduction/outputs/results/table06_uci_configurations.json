@@ -1,0 +1,36 @@
+{
+  "shared": {
+    "r_re": 6.283185307179586,
+    "weight_decay": 0.0001,
+    "lambda": 0.05,
+    "epochs": 200
+  },
+  "rows": [
+    {
+      "dataset": "Diabetes",
+      "h": 32,
+      "lr": 0.05,
+      "eps": 3.0,
+      "r_im": 0.5,
+      "params": 704
+    },
+    {
+      "dataset": "California",
+      "h": 32,
+      "lr": 0.05,
+      "eps": 1.0,
+      "r_im": 1.5,
+      "params": 576
+    },
+    {
+      "dataset": "Wine",
+      "h": 32,
+      "lr": 0.05,
+      "eps": 1.0,
+      "r_im": 1.5,
+      "params": 768
+    }
+  ],
+  "status": "printed values match the saved result record exactly",
+  "reproducibility_gap": "The original released exp7_sweep.py is only an lr/epoch sweep and does not produce this 54-configuration h/lr/eps/r_im grid. paper_reproduction/23_experiment12_uci_tuned_sweep.py is the clean replacement producer."
+}

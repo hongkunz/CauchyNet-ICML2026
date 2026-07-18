@@ -1,0 +1,12 @@
+\begin{tabular}{ll}
+Parameter & Value \\
+\hline
+Data Split Ratio & 50\% training, 25\% validation, 25\% testing \\
+Architecture & One hidden layer with 128 neurons \\
+Batch Size & 32 \\
+Optimizer & Adam, learning rate 0.01, decayed by factor 0.5 every 100 epochs \\
+Weight Decay & 1e-4 \\
+Preprocessing & Target values normalized via MinMaxScaler \\
+Random Seed & 10 \\
+Imaginary-Part Penalty & lambda=0.1; final fixed-pole gap filling uses 0 \\
+\end{tabular}

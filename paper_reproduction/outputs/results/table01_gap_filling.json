@@ -1,0 +1,46 @@
+{
+  "configuration": {
+    "hidden_size": 64,
+    "pole_ellipse": [
+      2.5,
+      0.4
+    ],
+    "trainable_poles": false,
+    "learning_rate": 0.05,
+    "imaginary_penalty": 0.0,
+    "epochs": 3000,
+    "seeds": 10
+  },
+  "rows": [
+    {
+      "model": "CauchyNet",
+      "mean_mae": 0.020180833898484705,
+      "median": 0.012433880940079689,
+      "max": 0.16176992654800415,
+      "params": 128
+    },
+    {
+      "model": "SIREN",
+      "mean_mae": 0.0872251681983471,
+      "median": 0.07239636778831482,
+      "max": 0.3348686695098877,
+      "params": 193
+    },
+    {
+      "model": "FNN",
+      "mean_mae": 0.20316042751073837,
+      "median": 0.19621065258979797,
+      "max": 0.5093482732772827,
+      "params": 193
+    },
+    {
+      "model": "N-BEATS",
+      "mean_mae": 0.1940329812467098,
+      "median": 0.18599329143762589,
+      "max": 0.8400833606719971,
+      "params": 204
+    }
+  ],
+  "source": "experiments/results/best_config_gap_filling.json",
+  "status": "exact: summaries recomputed from all 10 saved seeds"
+}

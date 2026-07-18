@@ -1,0 +1,72 @@
+{
+  "protocol": {
+    "seed": 5,
+    "points": 300,
+    "domain": [
+      -1.0,
+      1.0
+    ],
+    "split": [
+      150,
+      75,
+      75
+    ],
+    "hidden_width": 128,
+    "epochs": 200,
+    "learning_rate": 0.01,
+    "batch_size": 32,
+    "target_scaling": "MinMaxScaler to [0,1] fitted before the split",
+    "reported_quantity": "absolute normalized test error on a linear axis"
+  },
+  "metrics": {
+    "0.1": {
+      "normalized_mae": 0.002098263241350651,
+      "normalized_mse": 1.0903359907388221e-05,
+      "median_absolute_error": 0.0012835264205932617,
+      "q1_absolute_error": 0.0006631165742874146,
+      "q3_absolute_error": 0.002354741096496582,
+      "max_absolute_error": 0.013606369495391846
+    },
+    "0.3": {
+      "normalized_mae": 0.0023248596116900444,
+      "normalized_mse": 1.0964058674289845e-05,
+      "median_absolute_error": 0.0017670989036560059,
+      "q1_absolute_error": 0.0010687634348869324,
+      "q3_absolute_error": 0.002700626850128174,
+      "max_absolute_error": 0.013521671295166016
+    },
+    "0.5": {
+      "normalized_mae": 0.0020354778971523046,
+      "normalized_mse": 1.0269999620504677e-05,
+      "median_absolute_error": 0.0012356042861938477,
+      "q1_absolute_error": 0.0007587224245071411,
+      "q3_absolute_error": 0.0020576119422912598,
+      "max_absolute_error": 0.01234060525894165
+    },
+    "1": {
+      "normalized_mae": 0.00159484485629946,
+      "normalized_mse": 6.126271273387829e-06,
+      "median_absolute_error": 0.000981748104095459,
+      "q1_absolute_error": 0.0003400743007659912,
+      "q3_absolute_error": 0.0022069811820983887,
+      "max_absolute_error": 0.010373532772064209
+    },
+    "1.5": {
+      "normalized_mae": 0.001958334119990468,
+      "normalized_mse": 8.226084901252761e-06,
+      "median_absolute_error": 0.0013511478900909424,
+      "q1_absolute_error": 0.0007290840148925781,
+      "q3_absolute_error": 0.0022343844175338745,
+      "max_absolute_error": 0.010505586862564087
+    }
+  },
+  "caption_status": "The revised caption matches the source notebook and archived image: absolute normalized test error on a linear axis.",
+  "reconstruction_note": "The archived notebook was unseeded. Seed 5 reproduces the displayed lambda=1 median minimum; a seed scan showed that the exact ordering is not stable across seeds, so this legacy panel is qualitative only.",
+  "provenance": [
+    "ICML2026/source/Fig/figure_24_1.png",
+    "code/1d_case_missing_data/7_experiment5_3.ipynb penalty loop and boxplot cells",
+    "reproducibility_audit/notebook_reruns/run_e53b.py cells 3-14",
+    "code/1d_case_missing_data/models.py",
+    "code/1d_case_missing_data/utils2.py"
+  ]
+}

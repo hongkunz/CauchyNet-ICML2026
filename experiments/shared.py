@@ -1,6 +1,6 @@
 """
-Shared utilities for all rebuttal experiments.
-Hyperparameters match the paper (supp.tex Table 2).
+Shared utilities for the released experiments.
+Legacy defaults match the paper's supplementary Table 3.
 """
 
 import numpy as np
@@ -11,8 +11,9 @@ import time
 from sklearn.metrics import mean_squared_error, mean_absolute_error
 from sklearn.preprocessing import MinMaxScaler
 
-# ── Paper hyperparameters (supp.tex Table 2) ──────────────────────
-HIDDEN_SIZE = 64
+# ── Legacy 1D trainable-pole defaults (supplement Table 3) ────
+HIDDEN_SIZE = 128
+DEFAULT_SEED = 10
 BATCH_SIZE = 32
 LR = 0.01
 WEIGHT_DECAY = 1e-4
@@ -257,7 +258,7 @@ def target_function(x):
 
 # ── Data preparation with MinMaxScaler ────────────────────────────
 
-def prepare_1d_data(n_points=50, seed=0):
+def prepare_1d_data(n_points=50, seed=DEFAULT_SEED):
     """Generate and split 1D data with MinMaxScaler. 50/25/25 split."""
     x_np = np.linspace(-1, 1, n_points).astype(np.float32)
     y_np = target_function(x_np).astype(np.float32)

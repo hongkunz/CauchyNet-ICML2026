@@ -1,0 +1,38 @@
+{
+  "rows": [
+    {
+      "parameter": "Data Split Ratio",
+      "value": "50% training, 25% validation, 25% testing"
+    },
+    {
+      "parameter": "Architecture",
+      "value": "One hidden layer with 128 neurons"
+    },
+    {
+      "parameter": "Batch Size",
+      "value": "32"
+    },
+    {
+      "parameter": "Optimizer",
+      "value": "Adam, learning rate 0.01, decayed by factor 0.5 every 100 epochs"
+    },
+    {
+      "parameter": "Weight Decay",
+      "value": "1e-4"
+    },
+    {
+      "parameter": "Preprocessing",
+      "value": "Target values normalized via MinMaxScaler"
+    },
+    {
+      "parameter": "Random Seed",
+      "value": "10"
+    },
+    {
+      "parameter": "Imaginary-Part Penalty",
+      "value": "lambda=0.1; final fixed-pole gap filling uses 0"
+    }
+  ],
+  "scope": "legacy one-dimensional trainable-pole default only",
+  "warning": "The removed legacy sensitivity audit uses its own non-default schedules and RNG state."
+}

@@ -1,0 +1,72 @@
+{
+  "protocol": {
+    "hidden_size": 64,
+    "r_re": 1.5,
+    "r_im": 0.15,
+    "fixed_pole_params": 128,
+    "fnn_params": 256,
+    "n_test": 1000,
+    "n_seeds": 10,
+    "target_scaling": "MinMaxScaler fitted on training targets only",
+    "ridge_alphas": [
+      0.0,
+      1e-08,
+      1e-07,
+      1e-06,
+      1e-05,
+      0.0001,
+      0.001,
+      0.01,
+      0.1,
+      1.0,
+      10.0
+    ],
+    "fnn_epochs": 500,
+    "fnn_lr": 0.01,
+    "fnn_patience": 50
+  },
+  "rows": [
+    {
+      "n_train": 20,
+      "cauchy_mse_mean": 0.0027207594492368167,
+      "cauchy_mse_std": 0.002029275946712684,
+      "fnn_mse_mean": 0.04029399752616882,
+      "fnn_mse_std": 0.019371682911451193,
+      "ratio": 14.809834635499085
+    },
+    {
+      "n_train": 25,
+      "cauchy_mse_mean": 0.003762873870244632,
+      "cauchy_mse_std": 0.004127384656189789,
+      "fnn_mse_mean": 0.054287792555987834,
+      "fnn_mse_std": 0.06122957954259151,
+      "ratio": 14.427215587871531
+    },
+    {
+      "n_train": 30,
+      "cauchy_mse_mean": 0.002044568120026684,
+      "cauchy_mse_std": 0.0016732381232364955,
+      "fnn_mse_mean": 0.036296805879101154,
+      "fnn_mse_std": 0.024756822675971814,
+      "ratio": 17.752798512102125
+    },
+    {
+      "n_train": 40,
+      "cauchy_mse_mean": 0.00036538207530863425,
+      "cauchy_mse_std": 0.00048754781142739133,
+      "fnn_mse_mean": 0.02031802199780941,
+      "fnn_mse_std": 0.008916542469917943,
+      "ratio": 55.60760467148532
+    },
+    {
+      "n_train": 50,
+      "cauchy_mse_mean": 0.00012047596856080276,
+      "cauchy_mse_std": 7.860873172979411e-05,
+      "fnn_mse_mean": 0.009847987769171595,
+      "fnn_mse_std": 0.004725379454628274,
+      "ratio": 81.74234153761076
+    }
+  ],
+  "status": "exact: per-seed summaries and all printed ratios verified",
+  "producer": "code_release/experiments/exp11_fixed_pole_ridge.py"
+}

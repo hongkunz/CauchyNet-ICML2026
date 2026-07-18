@@ -1,0 +1,36 @@
+{
+  "rows": [
+    {
+      "dataset": "Diabetes",
+      "cauchy_mse_mean": 5007.493479533621,
+      "cauchy_mse_std": 1360.1210470699634,
+      "fnn_mse_mean": 5920.440459485174,
+      "fnn_mse_std": 579.7549687093141,
+      "ratio_fnn_over_cauchy": 1.1823161595083258,
+      "cauchy_params": 704,
+      "fnn_params": 1405
+    },
+    {
+      "dataset": "California",
+      "cauchy_mse_mean": 0.6718888789856747,
+      "cauchy_mse_std": 0.24688880083616405,
+      "fnn_mse_mean": 0.578094725567743,
+      "fnn_mse_std": 0.21582607643124943,
+      "ratio_fnn_over_cauchy": 0.8604022832472994,
+      "cauchy_params": 576,
+      "fnn_params": 1151
+    },
+    {
+      "dataset": "Wine",
+      "cauchy_mse_mean": 0.6792380964871899,
+      "cauchy_mse_std": 0.10663825069506178,
+      "fnn_mse_mean": 0.7305761474054616,
+      "fnn_mse_std": 0.17293057361317027,
+      "ratio_fnn_over_cauchy": 1.075581819076074,
+      "cauchy_params": 768,
+      "fnn_params": 1535
+    }
+  ],
+  "status": "all Table 7 entries reproduce by the paper's rounding rules",
+  "reproducibility_gap": "The saved JSON contains the five-fold summaries, but the exact original 54-configuration producer and RNG state are not present in the release. paper_reproduction/23_experiment12_uci_tuned_sweep.py is the clean replacement producer."
+}

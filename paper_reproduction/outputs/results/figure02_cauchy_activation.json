@@ -1,0 +1,8 @@
+{
+  "grid_size": 2800,
+  "domain_min": -2.0,
+  "domain_max": 2.0,
+  "pole": 0.01,
+  "magnitude_threshold": 1.5,
+  "excluded_disc_radius": 0.6666666666666666
+}

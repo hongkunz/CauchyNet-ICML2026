@@ -1,0 +1,20 @@
+{
+  "protocol": {
+    "series": "M4 Hourly H1",
+    "observations": 700,
+    "model": "multiplicative",
+    "period": 24,
+    "extrapolate_trend": 1
+  },
+  "data_source": "paper_reproduction/_m4_data.py embedded M4 H1 payload",
+  "trend_comparison": {
+    "max_abs_difference": 2.7284841053187847e-12,
+    "mse": 8.312888198363547e-26,
+    "exact_within_1e-10": true
+  },
+  "provenance": [
+    "ICML2026/source/supp.tex Figure 10",
+    "code/1d_case_missing_data/mstl_decomposition_M4.ipynb multiplicative cell",
+    "reproducibility_audit/notebook_reruns/run_m4_decomp.py and run_m4_decomp.log"
+  ]
+}

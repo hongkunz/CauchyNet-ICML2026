@@ -1,0 +1,153 @@
+{
+  "mode": "verify",
+  "status": "pass",
+  "runs": [
+    {
+      "script": "03_figure3_theory_roadmap.py",
+      "arguments": [],
+      "return_code": 0,
+      "elapsed_seconds": 0.8947200775146484
+    },
+    {
+      "script": "04_figure4_elliptical_poles.py",
+      "arguments": [],
+      "return_code": 0,
+      "elapsed_seconds": 1.0849649906158447
+    },
+    {
+      "script": "05_figure5_gap_filling.py",
+      "arguments": [],
+      "return_code": 0,
+      "elapsed_seconds": 3.7489123344421387
+    },
+    {
+      "script": "06_figure6_architecture_summary.py",
+      "arguments": [],
+      "return_code": 0,
+      "elapsed_seconds": 0.7581338882446289
+    },
+    {
+      "script": "07_figure7_gap_filling_curves.py",
+      "arguments": [],
+      "return_code": 0,
+      "elapsed_seconds": 1.401989221572876
+    },
+    {
+      "script": "10_figure10_m4_decomposition.py",
+      "arguments": [],
+      "return_code": 0,
+      "elapsed_seconds": 2.1423730850219727
+    },
+    {
+      "script": "11_figure11_targets.py",
+      "arguments": [],
+      "return_code": 0,
+      "elapsed_seconds": 0.9729866981506348
+    },
+    {
+      "script": "16_table1_gap_filling.py",
+      "arguments": [],
+      "return_code": 0,
+      "elapsed_seconds": 0.0916910171508789
+    },
+    {
+      "script": "17_table2_notation.py",
+      "arguments": [],
+      "return_code": 0,
+      "elapsed_seconds": 0.027139902114868164
+    },
+    {
+      "script": "18_table3_default_setup.py",
+      "arguments": [],
+      "return_code": 0,
+      "elapsed_seconds": 0.025913715362548828
+    },
+    {
+      "script": "19_table4_parameter_counts.py",
+      "arguments": [],
+      "return_code": 0,
+      "elapsed_seconds": 1.0467870235443115
+    },
+    {
+      "script": "20_table5_fixed_pole_ridge.py",
+      "arguments": [],
+      "return_code": 0,
+      "elapsed_seconds": 0.08237218856811523
+    },
+    {
+      "script": "21_table6_uci_configurations.py",
+      "arguments": [],
+      "return_code": 0,
+      "elapsed_seconds": 0.02869701385498047
+    },
+    {
+      "script": "22_table7_uci_results.py",
+      "arguments": [],
+      "return_code": 0,
+      "elapsed_seconds": 0.030133962631225586
+    }
+  ],
+  "output_sha256": {
+    "outputs/figures/figure01_rational_spike.pdf": "866cf86da7fd23d39a72932329465d3c9015a2baee856ccca5f1c21391dbc98e",
+    "outputs/figures/figure01_rational_spike.png": "84da6449a7cbc1987fe6f441f198ca4ab5620ea9802c9b7d4de8fb815dd454b5",
+    "outputs/figures/figure02_cauchy_activation.pdf": "58f87187d72d1aabbb6ac82322c550469d852dff86ad8f7310d005f7de8e2e1a",
+    "outputs/figures/figure02_cauchy_activation.png": "d7a9d4cfcddd5d090c8fb8d545c3cb6167baa70e86c2619f92d85122466f1df6",
+    "outputs/figures/figure03_theory_roadmap.pdf": "cf216c1141daa5b8057975263fc1c04bf71d9423077a614caf744e5609e335b3",
+    "outputs/figures/figure03_theory_roadmap.png": "6141c735dcdec6b1ffd59745ef5d6ad07aa2ed901c57eb0dac0240d3b18d3f27",
+    "outputs/figures/figure04_elliptical_poles.pdf": "31cc4ee3181f8b1f238f6cceaf95e52f330a4893f81cd6bb1f83c19b5a5ff39f",
+    "outputs/figures/figure04_elliptical_poles.png": "c767e70f3c6ced6400da03529e4e0f8c649694dd7f54cbfc78b5d42c4c53d359",
+    "outputs/figures/figure05_gap_filling.pdf": "1a6ce42fc00318bb7f556315fe579cef24429c181a62717705434a6d11240aad",
+    "outputs/figures/figure05_gap_filling.png": "f9966c696970d7cf27f87f0482443c6da2875b71ea8c675046daf8531e9489e1",
+    "outputs/figures/figure06_architecture_summary.pdf": "8e7abd22fe0c007d10b504c08bf21a576467e923f321f90533857f1b6df61007",
+    "outputs/figures/figure06_architecture_summary.png": "ad20509c8cabe97157587576d510145b3014978f1851fe07e45db668659240c2",
+    "outputs/figures/figure07_gap_filling_curves.pdf": "f3107c9f0ed1961971475568d532c5af1686714ab0e2069c42e549749d82d26a",
+    "outputs/figures/figure07_gap_filling_curves.png": "3ffba640c71a52a04dc6e7291780cbe4133b9d8e09e0db7dcca1396052c296c2",
+    "outputs/figures/figure08_missing_disk.pdf": "81a770e49276f03d173f463782317835abaa0ee644fd2a07ef372b443af75580",
+    "outputs/figures/figure08_missing_disk.png": "fbe47a8ecb5f4518adb350c6834a09b12c12a8cb568bfb30fc9df61035e80f58",
+    "outputs/figures/figure09_2d_surface.pdf": "9d8a626a0736e7d0c376743a30fea8d9cbe14d62d62725a53a2d8a7ab37d4c3f",
+    "outputs/figures/figure09_2d_surface.png": "32917b922d625ad3af5b0533c75e7536f53d5f8b27d3084a7ed3fe4b8d429777",
+    "outputs/figures/figure10_m4_decomposition.pdf": "4c17c047ac41bd5a6cacc8b5e25b7f2df994aed7395a3d5c6614ad361468c367",
+    "outputs/figures/figure10_m4_decomposition.png": "9b2e06366d21d7bb1a37a15363b6c4edf5b4328574533a5f706867404441e92e",
+    "outputs/figures/figure11_targets.pdf": "fb9f28ff65ec72cfe32f58aac59f18e8b6fd387529e27a41e2ac5ca7b72a893a",
+    "outputs/figures/figure11_targets.png": "c7e2615a03739198528bd571705c2ca128703c7c6f80e7981a82b9bc82bf3f4a",
+    "outputs/figures/figure12_m4_benchmark.pdf": "3b75bf98c4cfad6ea86e7f8c44831c5b7df6555a562a56e40cf68ab2bb2ce626",
+    "outputs/figures/figure12_m4_benchmark.png": "3f2f13839df36bd661f408cd6cad47a0aa01f161074e1953d71ad08faa46e2b9",
+    "outputs/figures/figure13_predictions_residuals.pdf": "47e2400ad910a69be51e15f5cf549f11de601abc38406f44ceb8928882419178",
+    "outputs/figures/figure13_predictions_residuals.png": "23f42f2c0804744ecb1b33bee56eec966c57607cdb4b89890b774eac46b08bfc",
+    "outputs/figures/figure14_imaginary_penalty.pdf": "9e7b1f869ce0ff9e9c539d81062fb9d20a1f8fb3397b798eac6ed2122b5f0885",
+    "outputs/figures/figure14_imaginary_penalty.png": "b232a59133e5ee73d53bf4a35e2904387f79852a3c31a69ed01691ed3e8f2332",
+    "outputs/results/experiment12_uci_selected.json": "005aeb9b1b604536079216c7bed273635c0e35ae2f5fc991856604ebb07e4a2b",
+    "outputs/results/experiment12_uci_sweep_california.json": "510a411fc8fa4193f2ad09c4ed66c990ce30dc24bae3181c8f4b6621e82e5ff8",
+    "outputs/results/experiment12_uci_sweep_diabetes.json": "f5b09514473976cf4bb529cc1c545a80ea097c53047c536cae1d10ee7b659640",
+    "outputs/results/experiment12_uci_sweep_wine.json": "08782ae5467d17c4998b44516bb4e79c4202838da0fdd037aca5a2863f86b553",
+    "outputs/results/figure01_rational_spike.json": "628cd36440f4c5b9d642fd3c54109316dc1373b4c608dfff7e7cfdcb6b697a59",
+    "outputs/results/figure02_cauchy_activation.json": "61dcdbfae5b7ae8ef0b738a95ecfa2f5c1fb139e5885fbfee35cda2c34dc76db",
+    "outputs/results/figure03_theory_roadmap.json": "12cdd885a4e7b4768b2f500b8f33fd256f70cfc04e9614e42b0cad2815d5f996",
+    "outputs/results/figure04_elliptical_poles.json": "5f8306daa18323ebcc35db0039e20a5c6a5348b367911bf0cc3484f27300b362",
+    "outputs/results/figure05_gap_filling.json": "e0b6a55232ecf1c6244cef7622d496b9156274fa53867c1e6e77f947e3b78809",
+    "outputs/results/figure06_architecture_summary.json": "a97350629d60f7e18643a6b19f4f7a8a895853fa39b0e41fabb990823b661249",
+    "outputs/results/figure07_gap_filling_curves.json": "3953060ceedf2744219ec524bb05f94b6252ff9fae2c653f58cdd5b827dafc87",
+    "outputs/results/figure08_missing_disk.json": "aeda54c718ada148cea3a48f040992e2d9eaf6e9d31b9e9ee205bdebc131a66c",
+    "outputs/results/figure09_2d_surface.json": "a0912dc519506bcf54084cc7f303269b279f877d16c45a953ec529589b26c4e0",
+    "outputs/results/figure10_m4_decomposition.json": "d5a91ced84056d32e1db571d91fb3b1fe6b37986c183b7f86a02298dd6bb458f",
+    "outputs/results/figure11_targets.json": "ed6fae363ca9d5c5753aa3df20ca88ef6583e384b9e6cd7ece211d20353f23af",
+    "outputs/results/figure12_m4_benchmark.json": "1054cc485c6f44400bc7b86a5769834b9b90c9759b9604830e36e21a2ba65bb8",
+    "outputs/results/figure12_m4_benchmark.npz": "d82db3f13c47a86f827dbba525c3e0df6b4d644222c86a8e86908049b5b40e69",
+    "outputs/results/figure13_predictions_residuals.json": "692853f612bd446357f8bb31b130beffd8ff62aae760785840861c76a34bd642",
+    "outputs/results/figure13_predictions_residuals.npz": "dd7a403aaffbec84d6a73e50cf20ea254e123d7669b59e4d6879c6acaa17b35a",
+    "outputs/results/figure14_imaginary_penalty.json": "ea448aa15f1bf15d46d771ae4040adea7bf1aa46a8f165e90bff872b3a2d4995",
+    "outputs/results/figure14_imaginary_penalty.npz": "4740083ca9d59eaf9c6c3691532de204b86906021020e21e2e437b9020a6b181",
+    "outputs/results/table01_gap_filling.json": "6f082b4192378f43eb7d280254b78746086ac5554b11445df8b1ddbaaaf04abd",
+    "outputs/results/table01_gap_filling.tex": "4a1b971b114699c83a8827773763a0b3911969cfc80c1d7435b3610ab62ae528",
+    "outputs/results/table02_notation.json": "4e2f1d49409688b9f897b1f402d2514284674beafd1a428830f434a94eb16e0e",
+    "outputs/results/table02_notation.tex": "a17575ddc0b80dd9bce050cf60d560c64e07e545b601e78ebbe4ae23a0e59ba8",
+    "outputs/results/table03_default_setup.json": "5ee23f573ad0ffb485567e33f1ccfd9d2b014e0b9eb9c3f64734f73c5951fd84",
+    "outputs/results/table03_default_setup.tex": "687188fcaa00ab4bb7c0302bcc7ab3a1276bd52144c19baf1035121ff5aea953",
+    "outputs/results/table04_parameter_counts.json": "4fb67201f1e1c4baafe5ab048a83cf1e15a5986354a1feb3d6ccd873c5a5789c",
+    "outputs/results/table04_parameter_counts.tex": "ef0e1beab273be69c74e9f4d4b714a288b6bbc6558d75d923cadccb06312012c",
+    "outputs/results/table05_fixed_pole_ridge.json": "31be4ea25266fd8e8efce1306fe202c728091b02be9cfa06d81d44ec86e084a1",
+    "outputs/results/table05_fixed_pole_ridge.tex": "aa05f10c180ddeb26637e80cc3b80676b317ca16db1abe122ee2f7ad93d8e3f3",
+    "outputs/results/table06_uci_configurations.json": "a7c4703aa51a12b9332f8ec705491a7e7463b227084449afa564d00d851293de",
+    "outputs/results/table07_uci_results.json": "84a485107244498c70ce7015b36331288b6421ac51e1f9479c596628d7bedd57"
+  }
+}

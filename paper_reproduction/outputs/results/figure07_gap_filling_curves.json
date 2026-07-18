@@ -1,0 +1,16 @@
+{
+  "input": "experiments/results/best_config_gap_filling_curves.npz",
+  "input_sha256": "4a2ce7344457db5de7f9d88897399c760659cca65a0a27fb89a5db9778394502",
+  "shape_per_model_and_split": [
+    10,
+    3000
+  ],
+  "config": {
+    "hidden_size": 64,
+    "learning_rate": 0.05,
+    "train_points": 200,
+    "validation_points": 50,
+    "epochs": 3000,
+    "seeds": 10
+  }
+}

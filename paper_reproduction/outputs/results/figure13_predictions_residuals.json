@@ -1,0 +1,61 @@
+{
+  "protocol": {
+    "seed": 1,
+    "hidden_width": 128,
+    "epochs": 200,
+    "learning_rate": 0.005,
+    "batch_size": 32,
+    "imaginary_penalty": 0.1,
+    "split": [
+      350,
+      175,
+      175
+    ],
+    "target_scaling": "MinMaxScaler to [0,1] fitted before the split"
+  },
+  "metrics": {
+    "CauchyNet": {
+      "test_mse_unscaled": 10.249224662780762,
+      "test_mae_unscaled": 2.33259916305542,
+      "dense_grid_mae_unscaled": 2.014343500137329
+    },
+    "SIREN": {
+      "test_mse_unscaled": 129.48654174804688,
+      "test_mae_unscaled": 7.826292037963867,
+      "dense_grid_mae_unscaled": 6.9236159324646
+    },
+    "NBeats": {
+      "test_mse_unscaled": 589.2969360351562,
+      "test_mae_unscaled": 18.161405563354492,
+      "dense_grid_mae_unscaled": 17.72915267944336
+    },
+    "LSTM": {
+      "test_mse_unscaled": 895.6614379882812,
+      "test_mae_unscaled": 22.8055362701416,
+      "dense_grid_mae_unscaled": 22.9362850189209
+    },
+    "Transformer": {
+      "test_mse_unscaled": 509.8165283203125,
+      "test_mae_unscaled": 18.253568649291992,
+      "dense_grid_mae_unscaled": 18.37186622619629
+    },
+    "RBF": {
+      "test_mse_unscaled": 458.0282287597656,
+      "test_mae_unscaled": 16.227407455444336,
+      "dense_grid_mae_unscaled": 15.166253089904785
+    },
+    "Informer": {
+      "test_mse_unscaled": 286.94744873046875,
+      "test_mae_unscaled": 12.753923416137695,
+      "dense_grid_mae_unscaled": 11.65229606628418
+    }
+  },
+  "data_source": "paper_reproduction/_m4_data.py embedded M4 H1 payload",
+  "provenance": [
+    "ICML2026/source/Fig/PredictedVersusTrue.pdf",
+    "code/1d_case_missing_data/7_experiment5_3.ipynb",
+    "code/1d_case_missing_data/models.py",
+    "code/1d_case_missing_data/utils2.py",
+    "code_release/paper_reproduction/12_figure12_m4_benchmark.py"
+  ]
+}

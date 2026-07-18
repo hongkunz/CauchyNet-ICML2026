@@ -1,0 +1,14 @@
+{
+  "width": 128,
+  "counts": {
+    "CauchyNet": 512,
+    "SIREN": 385,
+    "N-BEATS": 385,
+    "RBF": 385,
+    "LSTM": 67201,
+    "Transformer": 132993,
+    "Informer": 199553
+  },
+  "status": "all numeric entries reproduced exactly",
+  "informer_configuration_note": "199,553 parameters correspond to two standard encoder layers at width 128, as stated in the revised supplement."
+}

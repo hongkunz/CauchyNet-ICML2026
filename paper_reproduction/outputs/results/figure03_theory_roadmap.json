@@ -1,0 +1,26 @@
+{
+  "stages": [
+    {
+      "number": "1",
+      "title": "Problem setup",
+      "statement": "$M\\subset\\mathbb{R}^{N}$ compact;  $\\mathcal{F}_{M,D}=C^{0}(M,D)$"
+    },
+    {
+      "number": "2",
+      "title": "Cauchy kernel function",
+      "statement": "$K(\\boldsymbol{\\xi},\\mathbf{x})=\\prod_{i=1}^{N}(\\xi^{i}-x_{i})^{-1}$"
+    },
+    {
+      "number": "3",
+      "title": "Cauchy approximation theorem",
+      "statement": "$\\sup_{\\mathbf{x}\\in M}\\,|f(\\mathbf{x})-\\sum_{k=1}^{m}\\theta_{k}K(\\boldsymbol{\\xi}_{k},\\mathbf{x})|<\\varepsilon$"
+    },
+    {
+      "number": "4",
+      "title": "Universal approximation for CauchyNet",
+      "statement": "$\\sup_{\\mathbf{x}\\in M}|f(\\mathbf{x})-\\Re(N_{\\mathbf{B},\\mathbf{C}}(\\mathbf{x}))|<\\varepsilon$"
+    }
+  ],
+  "provenance": "code_release/experiments/make_roadmap_figure.py",
+  "audit": "RGB-pixel match against archived flowchart.png"
+}

@@ -1,0 +1,58 @@
+{
+  "protocol": {
+    "seed": 10,
+    "domain": [
+      -1.5,
+      1.5
+    ],
+    "sample_count": 300,
+    "split_counts": {
+      "train": 150,
+      "validation": 75,
+      "test": 75
+    },
+    "width": 128,
+    "epochs": 20000,
+    "batch_size": 32,
+    "optimizer": "Adam",
+    "learning_rate": 0.01,
+    "weight_decay": 0.0,
+    "imaginary_penalty": 0.1,
+    "pole_init": "ellipse",
+    "pole_radii": [
+      2.5,
+      0.5
+    ],
+    "input_scale_divisor": 1.5,
+    "step_lr": {
+      "step_size": 4000,
+      "gamma": 0.7
+    },
+    "target_scaler_fit": "150 training targets only",
+    "checkpoint": "lowest validation loss",
+    "best_epoch": 18896,
+    "best_validation_loss_scaled": 1.8117434332035978e-08,
+    "lbfgs_steps": 0,
+    "lbfgs_validation_loss_scaled": null,
+    "lbfgs_accepted": false
+  },
+  "metrics": {
+    "test_mse": 1.3228622037786408e-06,
+    "test_mae": 0.0008834284381009638,
+    "grid_mse": 1.3652818324771943e-06,
+    "grid_mae": 0.0009059488656930625,
+    "grid_error_min": -0.005560636520385742,
+    "grid_error_max": 0.00566864013671875,
+    "grid_max_abs_error": 0.00566864013671875
+  },
+  "training_seconds": 67.86351366597228,
+  "final_train_loss_scaled": 1.007115344009435e-07,
+  "final_validation_loss_scaled": 6.969428350582045e-08,
+  "provenance": [
+    "ICML2026/source/supp.tex, Figure 9 protocol",
+    "code/2d_case/2d_f1*.ipynb legacy plotting/model branches",
+    "code/1d_case_missing_data/3_Redo_PaperExperiments_CauchyNet.ipynb",
+    "reproducibility_audit/notebook_reruns/run_redo_paper_experiments.py and run_redo.log"
+  ],
+  "audit_note": "The earlier 500-epoch draft protocol does not recover the displayed residual range. Full-grid and held-out test metrics for the verified 20,000-epoch protocol are both reported here."
+}

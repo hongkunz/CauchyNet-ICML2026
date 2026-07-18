@@ -1,0 +1,22 @@
+{
+  "synthetic": {
+    "points": 150,
+    "domain": [
+      -1.0,
+      1.0
+    ],
+    "formula": "1/((x+0.6)^2+0.005) - 40*exp(-2*(x+0.4)^2) + 50*sign(x)*abs(sin(4*x)+0.8)^1.5*sin(10*x)"
+  },
+  "m4_trend": {
+    "points": 700,
+    "x_normalization": "linspace(-1,1,700)",
+    "source": "paper_reproduction/_m4_data.py embedded M4 H1 payload"
+  },
+  "provenance": [
+    "ICML2026/source/supp.tex Figure 11",
+    "code/1d_case_missing_data/7_experiment5_3.ipynb challenging_function",
+    "reproducibility_audit/notebook_reruns/run_e53b.py lines 137-150",
+    "code/1d_case_missing_data/M4_trend_data.csv",
+    "reproducibility_audit/notebook_reruns/run_redo_paper_experiments.py"
+  ]
+}

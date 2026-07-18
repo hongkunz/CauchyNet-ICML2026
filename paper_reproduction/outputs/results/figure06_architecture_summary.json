@@ -1,0 +1,46 @@
+{
+  "entries": [
+    {
+      "model": "LSTM",
+      "strengths": "Effectively learns long-term temporal dependencies via gating.",
+      "weaknesses": "Large parameter footprint and sensitive hyperparameters, especially in sparse-data contexts."
+    },
+    {
+      "model": "Transformer",
+      "strengths": "Captures long-range correlations efficiently with abundant data.",
+      "weaknesses": "Quadratic complexity in sequence length; memory-intensive."
+    },
+    {
+      "model": "Informer",
+      "strengths": "Employs sparse self-attention to enhance scalability for long sequences.",
+      "weaknesses": "Multi-layer stacks involve thousands of parameters and require large datasets."
+    },
+    {
+      "model": "N-BEATS",
+      "strengths": "Provides accurate forecasting with interpretable decompositions into trend and seasonal components.",
+      "weaknesses": "High parameter count and data-hungry; may overfit in scenarios with limited data."
+    },
+    {
+      "model": "MLP",
+      "strengths": "Simple and straightforward to implement and train.",
+      "weaknesses": "Lacks specialized inductive biases for oscillatory or near-singular data."
+    },
+    {
+      "model": "RBF Network",
+      "strengths": "Excels at local approximations and can model a broad class of functions.",
+      "weaknesses": "Placement of kernel centers is non-trivial; struggles with sharp rational spikes or steep gradients."
+    },
+    {
+      "model": "SIREN",
+      "strengths": "Sinusoidal activations capture smooth and high-frequency signals effectively.",
+      "weaknesses": "Requires large capacity to model abrupt spikes or extremely limited data; not explicitly designed for missing-data imputation."
+    },
+    {
+      "model": "TCN",
+      "strengths": "Uses dilated convolutions for efficient sequence modeling.",
+      "weaknesses": "Deeper architectures increase parameter counts and can be computationally slow."
+    }
+  ],
+  "provenance": "ICML2026/source/supp.tex, Figure 6 framed itemize block",
+  "status": "content-equivalent deterministic rendering; original is typeset directly by LaTeX"
+}

@@ -1,0 +1,59 @@
+{
+  "rows": [
+    {
+      "symbol": "M",
+      "definition": "M=\\prod_{i=1}^N M_i\\subset\\mathbb{R}^N",
+      "meaning": "Compact real domain."
+    },
+    {
+      "symbol": "U_i",
+      "definition": "M_i\\subset U_i\\subset\\mathbb{C}",
+      "meaning": "Planar complex domain enclosing M_i."
+    },
+    {
+      "symbol": "U",
+      "definition": "U=\\prod_{i=1}^N U_i\\subset\\mathbb{C}^N",
+      "meaning": "Product domain."
+    },
+    {
+      "symbol": "\\Gamma",
+      "definition": "\\Gamma=\\partial U_1\\times\\cdots\\times\\partial U_N",
+      "meaning": "Product contour for multivariate Cauchy formula."
+    },
+    {
+      "symbol": "K(\\xi,x)",
+      "definition": "\\prod_{i=1}^N(\\xi^i-x_i)^{-1}",
+      "meaning": "Multivariate Cauchy kernel atom."
+    },
+    {
+      "symbol": "f",
+      "definition": "f\\in C(M;\\mathbb{R})",
+      "meaning": "Target function to approximate."
+    },
+    {
+      "symbol": "\\xi_k",
+      "definition": "\\xi_k\\in\\Gamma",
+      "meaning": "Pole locations for kernel atoms."
+    },
+    {
+      "symbol": "\\theta_k",
+      "definition": "\\theta_k\\in\\mathbb{C}",
+      "meaning": "Complex weights in the kernel expansion."
+    },
+    {
+      "symbol": "N_{B,C}",
+      "definition": "\\mathrm{CauchyNet}",
+      "meaning": "Network with parameters $B\\in\\mathbb{C}^{h\\times N}$, $C\\in\\mathbb{C}^h$."
+    },
+    {
+      "symbol": "h",
+      "definition": "\\mathrm{integer}",
+      "meaning": "Hidden-layer width."
+    },
+    {
+      "symbol": "\\lambda",
+      "definition": "\\lambda\\geq0",
+      "meaning": "Imaginary-part penalty weight."
+    }
+  ]
+}

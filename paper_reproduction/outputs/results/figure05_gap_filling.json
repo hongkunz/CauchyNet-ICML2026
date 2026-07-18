@@ -1,0 +1,13 @@
+{
+  "provenance": "experiments/plot_main_figure5.py",
+  "audit": "archived and audit-regenerated PNGs are RGB-pixel identical",
+  "inputs": {
+    "experiments/results/best_config_gap_filling.json": "652aa262a92b0261a5f1d2f13241469c88791eb9d5f0b9d1e4583e8fc2ad663f",
+    "experiments/results/best_config_gap_filling_curves.npz": "4a2ce7344457db5de7f9d88897399c760659cca65a0a27fb89a5db9778394502",
+    "experiments/results/main_figure5_reconstruction.npz": "e88ad793459b39d5eb0d35f213e29fc2ba7e262f9c115f77e668d5a4742e2178"
+  },
+  "outputs": [
+    "/Users/hongkunzhang/Documents/New_papers/My_CauchyNet/CauchyNet_ICML26submission/CauchyNet_GitHub_release/paper_reproduction/outputs/figures/figure05_gap_filling.pdf",
+    "/Users/hongkunzhang/Documents/New_papers/My_CauchyNet/CauchyNet_ICML26submission/CauchyNet_GitHub_release/paper_reproduction/outputs/figures/figure05_gap_filling.png"
+  ]
+}
